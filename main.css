@@ -1,0 +1,33 @@
+.heading {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media (max-width: 700px) {
+  body {
+    background-color: #f55;
+  }
+  .heading {
+    color: aliceblue;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  body {
+    background-color: #d89;
+  }
+  .heading {
+    font-size: 5em;
+    color: #ff0;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: #123;
+  }
+  .heading {
+    font-size: 10em;
+  }
+}
