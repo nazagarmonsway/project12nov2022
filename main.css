@@ -22,9 +22,12 @@ section {
   display: flex;
   gap: 10px;
   height: 80%;
+  flex-wrap: wrap;
   /* flex-direction: row is default*/
   /* justify-content: (horizontal adjustment-row); can also use space*/
   /* align-items: vertical adjustment-row; flipped for column*/
+  /* align-content: ; is the whole thing, not individual items*/
+  align-content: center;
 }
 
 .box {

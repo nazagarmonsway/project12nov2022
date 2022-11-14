@@ -1,3 +1,3 @@
 window resizer chrome extension
 
-1:01:48
+1:30:05
